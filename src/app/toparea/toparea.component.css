@@ -1,0 +1,110 @@
+.container{
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin: 0px 10px;
+    height: 35px;
+}
+.customize-label, 
+.export-label{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header {
+    display: flex;
+    align-items: center;
+}
+.top-settings{
+    display: flex;
+    align-items: center;
+    padding-left: 700px;
+}
+.search-icon{
+    margin-right: 20px;
+}
+.graphs-container{
+    display: flex;
+    align-items: center;
+}
+.stack-container{
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 10px;
+    width: 75%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+.meter-container hr,
+.stack-container hr{
+    border: none; 
+    border-top: 1px solid #000; 
+    margin: 10px 0; 
+}
+.rounded-image {
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.graph-header{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+.meter-container{
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 10px;
+    width: 25%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+.title-container h2{
+    margin: 20px 0 0 10px !important;
+}
+.title-container p{
+    margin: 0px 0px 20px 10px !important;
+}
+.img-container {
+    flex: 8; /* Take 10% of the available width */
+}
+.title-container {
+    flex: 80; /* Take 80% of the available width */
+}
+.icon-container {
+    flex: 10; /* Take 10% of the available width */
+    float: right;
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+.stack-bottom {
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 13%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 35px;
+    margin: 10px;
+    float: right;
+}
+.guage-bottom-container{
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 35px;
+    margin: 10px;
+    float: right;
+}
+.guage-bottom{
+    margin: 0 !important;
+    padding-left: 10px;
+}

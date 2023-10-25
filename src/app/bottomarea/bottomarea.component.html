@@ -1,0 +1,77 @@
+<div class="members-container">
+    <div class="buttom-header">
+        <div class="table-item name-container">
+          <p>Team members</p>
+        </div>
+        <div class="table-item user-container">
+          <p>100 users</p>
+        </div>
+        <div class="table-item icon-container">
+          <fa-icon class="moreinfoicon" [icon]="ICONS.info"></fa-icon>
+        </div>
+    </div>
+    <hr>
+        <div class="table-header">
+            <div class="name-box">
+                <input type="checkbox" id="myCheckbox">
+                <label for="myCheckbox">Name</label>
+            </div>
+            <div class="status-box">
+                <p>Status</p>
+                <fa-icon class="statusicon" [icon]="ICONS.status"></fa-icon>
+            </div>
+            <div class="role-box">
+                <p>Role</p>
+                <fa-icon class="roleicon" [icon]="ICONS.role"></fa-icon>
+            </div>
+            <p>License Use</p>
+            <p>Teams</p>
+        </div>
+    <hr>
+    <div *ngIf="users">
+        <ul class="userlist">
+          <li *ngFor="let user of users">
+            <div class="user-details">
+            <input type="checkbox" class="user-checkbox">
+                <div class="user-property name-id">
+                    <p>{{ user.name }}</p>
+                    <p>{{ user.id }}</p>
+                </div>
+                <div class="user-property status">
+                    <p>{{ user.status }}</p>
+                </div>
+                <div class="user-property role">
+                    <p>{{ user.role }}</p>
+                </div>
+                <div class="user-property email">
+                    <p>{{ user.license_use }}</p>
+                </div>
+                <div class="user-property teams">
+                    <p>{{ user.teams.join(', ') }}</p>
+                </div>
+                <fa-icon class="delete-icon" [icon]="ICONS.delete"></fa-icon>
+
+                <fa-icon class="edit-icon" [icon]="ICONS.edit"></fa-icon>
+            </div>
+          </li>
+        </ul>
+    </div>
+    <div class="table-buttom">
+        <div class="previous-box">
+            <fa-icon [icon]="ICONS.leftarrow"></fa-icon>
+            <p>Previous</p>
+        </div>
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>...</p>
+        <p>8</p>
+        <p>9</p>
+        <p>10</p>
+        <div class="next-box">
+            <p>Next</p>
+            <fa-icon [icon]="ICONS.rightarrow"></fa-icon>
+        </div>
+    </div>
+      
+</div>

@@ -1,0 +1,30 @@
+.rounded-image {
+  width: 35px; /* Adjust the width and height as needed */
+  height: 35px;
+  border-radius: 50%; /* Create a circular clipping mask */
+  object-fit: cover; /* Ensure the image fills the circular shape */
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.icon-container {
+  margin: 30px;
+}
+
+.img-container {
+  margin: 30px 30px 30px 22px;
+}
+
+.top-icon-group,
+.buttom-icon-group {
+  align-items: center;
+}
+
+.buttom-icon-group{
+  margin-bottom: 50px;
+}

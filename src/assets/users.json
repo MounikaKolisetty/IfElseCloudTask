@@ -1,0 +1,84 @@
+{
+    "users": [
+        {
+            "name": "Olivia Rhye",
+            "id": "@olivia",
+            "status": "Customer",
+            "role": "Product Designer",
+            "license_use": "70%",
+            "teams": ["Design", "Product", "Marketing"]
+        },
+        {
+            "name": "Phoenix Baker",
+            "id": "@phoenix",
+            "status": "Churned",
+            "role": "Product Manager",
+            "license_use": "60%",
+            "teams": ["Design", "Product", "Marketing"]
+        },
+        {
+            "name": "Lana Steiner",
+            "id": "@lana",
+            "status": "Customer",
+            "role": "Frontend Developer",
+            "license_use": "30%",
+            "teams": ["Design", "Product", "Marketing"]
+        },
+        {
+            "name": "Demi Wilkinson",
+            "id": "@demi",
+            "status": "Customer",
+            "role": "Backend Developer",
+            "license_use": "80%",
+            "teams": ["Design", "Product", "Marketing"]
+        },
+        {
+            "name": "Candice Wu",
+            "id": "@candice",
+            "status": "Customer",
+            "role": "Fullstack Developer",
+            "license_use": "20%",
+            "teams": ["Design", "Product", "Marketing"]
+        },
+        {
+            "name": "Natali Craig",
+            "id": "@natali",
+            "status": "Churned",
+            "role": "UX Designer",
+            "license_use": "10%",
+            "teams": ["Design", "Product", "Marketing"]
+        },
+        {
+            "name": "Drew Cano",
+            "id": "@drew",
+            "status": "Customer",
+            "role": "US Copywriter",
+            "license_use": "40%",
+            "teams": ["Design", "Product", "Marketing"]
+        },
+        {
+            "name": "Orlando Diggs",
+            "id": "@orlando",
+            "status": "Customer",
+            "role": "UX Designer",
+            "license_use": "20%",
+            "teams": ["Design", "Product", "Marketing"]
+        },
+        {
+            "name": "Ande Lane",
+            "id": "@andi",
+            "status": "Churned",
+            "role": "Product Manager",
+            "license_use": "10%",
+            "teams": ["Design", "Product", "Marketing"]
+        },
+        {
+            "name": "Kate Morrison",
+            "id": "@kate",
+            "status": "Customer",
+            "role": "QA Engineer",
+            "license_use": "40%",
+            "teams": ["Design", "Product", "Marketing"]
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+.members-container{
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 10px;
+    width: 99%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+.members-container hr{
+    border: none; 
+    border-top: 1px solid #a09e9e; 
+}
+.buttom-header{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+.user-container p{
+    border: 1px solid #785edd;
+    border-radius: 10px;
+    width: 8%;
+    text-align: center;
+    color: #785edd;
+    background-color: #E5E0EF;
+}
+.name-container {
+    flex: 10; /* Take 10% of the available width */
+    margin-left: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.user-container {
+    flex: 80; /* Take 80% of the available width */
+
+    margin-top: 10px;
+}
+.icon-container {
+    flex: 10; /* Take 10% of the available width */
+    float: right;
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.status-box,
+.role-box{
+    display: flex;
+    align-items: center;
+}
+.table-header{
+    display: grid;
+    grid-template-columns: 25% 15% 15% 20% 20%;
+}
+.name-box{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10px;
+}
+.name-box label{
+    padding-left: 10px;
+}
+.statusicon{
+    padding-left: 5px;
+}
+.roleicon{
+    padding-left: 5px;
+}
+.user-details {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line if the container is too narrow */
+    border-bottom: 1px solid #a09e9e; /* Add a border to the bottom of each row */
+    padding-bottom: 10px; 
+}
+  
+.user-property {
+    flex-grow: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.name-id {
+    flex-basis: 10%;
+}
+.name-id p{
+    margin: 0 !important;
+}
+.status {
+    flex-basis: 0%;
+}
+.role {
+    flex-basis: 0%;
+}
+.email {
+    flex-basis: 0%;
+}
+.teams {
+    flex-basis: 15%;
+}
+.userlist{
+    list-style: none;
+    padding-left: 0 !important;
+}
+.user-checkbox{
+    padding-left: 10px !important;
+}
+.delete-icon,
+.edit-icon{
+    padding: 20px;
+}

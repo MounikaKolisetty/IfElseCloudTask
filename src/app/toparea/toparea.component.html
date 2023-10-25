@@ -1,0 +1,52 @@
+<div class="header">
+    <h1>Welcome back, Olivia!</h1>
+    <div class="top-settings">
+        <fa-icon class="search-icon" [icon]="ICONS.search"></fa-icon>
+        <div class="container">
+            <fa-icon [icon]="ICONS.customize"></fa-icon>
+            <p class="customize-label">Customize</p>
+        </div>
+        <div class="container">
+            <fa-icon [icon]="ICONS.export"></fa-icon>
+            <p class="export-label">Export</p>
+        </div>
+    </div>
+</div>
+<div class="graphs-container">
+    <div class="stack-container">
+        <div class="graph-header">
+            <div class="graph-item img-container">
+              <img src="../../assets/circlewithcube.png" alt="Round Image" class="rounded-image">
+            </div>
+            <div class="graph-item title-container">
+              <h2>Vendor breakdown</h2>
+              <p>Keep track of vendors and their security ratings.</p>
+            </div>
+            <div class="graph-item icon-container">
+              <fa-icon class="moreinfoicon" [icon]="ICONS.info"></fa-icon>
+            </div>
+        </div>
+        <hr>
+            <div #chartContainer></div>
+        <hr>
+            <p class="stack-bottom">View full report</p>
+    </div>
+    <div class="meter-container">
+        <div class="graph-header">
+            <div class="graph-item title-container">
+              <h2>Vendor monitored</h2>
+              <p>You're using 80% of valuable spots</p>
+            </div>
+            <div class="graph-item icon-container">
+              <fa-icon class="moreinfoicon" [icon]="ICONS.info"></fa-icon>
+            </div>
+        </div>
+        <hr>
+            <div #speedContainer></div>
+        <hr>
+            <div class="guage-bottom-container">
+                <fa-icon [icon]="ICONS.upgrade"></fa-icon>
+                <p class="guage-bottom">Upgrade plan</p>
+            </div>
+    </div>
+</div>
